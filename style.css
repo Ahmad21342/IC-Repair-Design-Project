@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.button {
+    border-radius: 2px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.20);
+    border: 0;
+    outline: 0;
+    color: #FFF;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.header {
+    background-color: black;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.header-navigation {
+    display: flex;
+    list-style: none;
+}
+
+.header-navigation__item {
+    margin-right: 47px;
+}
+
+.header-navigation__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    color: #E3B873;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.hero {
+    background-image: url(./image/a1.jpg);
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.518);
+    z-index: -1;
+}
+
+.title {
+    margin: 0;
+    color: #FFF;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.825%;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #E3B873;
+}
+
+.paragraph-subtitle {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-style: inherit;
+    line-height: 163.68%;
+}
+
+.buttons {
+    display: flex;
+}
+
+.b1 {
+    width: 207px;
+    height: 51px;
+    font-size: 10px;
+    padding: 18px 30px;
+}
+
+.b2 {
+    width: 207px;
+    height: 51px;
+    font-size: 10px;
+    padding: 18px 10px;
+    border: 1px solid white;
+    border-radius: 2px;
+    border: 1;
+    outline: 0;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 18px;
+}
+
+
+
+
+
+
+
+
+
+.black-container {
+    margin-top: -16px;
+    height: 1074px;
+    background-color: #131313;
+}
+
+.list_2 {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+.white {
+    height: 2540px;
+}
